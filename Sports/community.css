@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;600&family=PT+Sans+Narrow:wght@400;700&family=Roboto:wght@300;400&family=Titillium+Web:wght@300;400;600&family=Ubuntu:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Open+Sans&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Gabarito:wght@400;500&family=Open+Sans&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Gabarito:wght@400;500&family=Open+Sans&family=Pacifico&family=Poppins:wght@200;300;500;600&family=Roboto&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Gabarito:wght@400;500&family=Open+Sans&family=Poppins:wght@200;300;500;600&family=Young+Serif&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 180px;
+}
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    background-color: white;
+  
+}
+.topbar {
+    display: flex;
+    width: 100%;
+    height: 185px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar1 ul li {
+    list-style: none;
+}
+
+.navbar1 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar1 ul li a:hover .underline {
+    display: block;
+    color: black;
+    width: 100%;
+    height: 2px;
+    background-color: Black;
+    transition: 0.02s ease-in-out;
+
+}
+
+.navbar1 ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 85px;
+    list-style: none;
+    font-size: 20px;
+
+}
+
+.logo1 {
+    height: 180px;
+    margin-left: 60px;
+}
+
+.navbar1 {
+    width: 60%;
+
+}
+
+.logo {
+    width: 20%;
+}
+
+.search {
+    margin-left: 20px;
+    width: 200px;
+    height: 18px;
+    padding: 8px;
+    margin-top: 77px;
+    border-radius: 28px;
+    background-color: green;
+}
+
+.search input {
+    background-color: green;
+    border-style: none;
+}
+
+.search ::placeholder {
+    color: white;
+    padding: 18px;
+    font-size: 18px;
+}
+
+.icon i {
+    color: white;
+}
+
+.navbar1 ul li {
+    align-items: center;
+
+}
+
+.navbar2 {
+    width: 100%;
+    height: 40px;
+    background-color: green;
+    text-align: center;
+}
+
+.navbar2 ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-top: 5px;
+}
+
+.navbar2 ul li {
+    color: white;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar2 ul li a:hover {
+    color: crimson;
+
+}
+
+.navbar2 ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/*Body*/
+
+.container-head {
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'Pacifico', cursive;
+}
+
+.container-head h1 {
+    font-size: 50px;
+    font-weight: 250;
+    color: brown;
+}
+
+/*container*/
+.box1 {
+    display: flex;
+}
+
+.photo {
+    border: 2px solid;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+.khelo {
+    height: 250px;
+    border-radius: 12px;
+}
+
+.content {
+    padding: 40px;
+}
+
+.content h3 {
+    font-size: 48px;
+}
+
+.content p {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content a {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: blue;
+}
+
+.box2 {
+    display: flex;
+}
+
+.photo2 {
+    border: 2px solid;
+    margin-right: 100px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+.bad {
+    height: 320px;
+    border-radius: 12px;
+}
+
+.content2 {
+    padding: 40px;
+    margin-left: 70px;
+    text-align: left;
+}
+
+.content2 h3 {
+    font-size: 46px;
+}
+
+.content2 p {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content2 a {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: blue;
+}
+
+/*team members*/
+.chef-heading {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.chef-heading h1 {
+    font-size: 50px;
+    color: brown;
+    font-family: 'Pacifico', cursive;
+}
+
+.chef1 {
+    background-color: skyblue;
+    border-color: black;
+    border-radius: 12px;
+    border: 1px solid black;
+    position: relative;
+    top: 100px;
+    width: 230px;
+    height: 300px;
+}
+
+.chef2 {
+    background-color: skyblue;
+    border-color: black;
+    border-radius: 12px;
+    border: 1px solid black;
+    position: relative;
+    top: 100px;
+    width: 230px;
+    height: 300px;
+}
+
+.chef3 {
+    background-color: skyblue;
+    border-color: black;
+    border-radius: 12px;
+    border: 1px solid black;
+    position: relative;
+    top: 100px;
+    width: 230px;
+    height: 300px;
+}
+
+.chef4 {
+    background-color: skyblue;
+    border-color: black;
+    border-radius: 12px;
+    border: 1px solid black;
+    position: relative;
+    top: 100px;
+    width: 230px;
+    height: 300px;
+}
+
+.profile {
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.chef1:hover,
+.chef2:hover,
+.chef3:hover,
+.chef4:hover {
+    transform: scale(1.1);
+    transition-duration: 0.8s;
+}
+
+.chef-img {
+    border-radius: 2000px;
+    position: relative;
+    left: 35px;
+    top: 20px;
+    border-style: solid;
+    border-color: rgb(64, 70, 77);
+}
+
+.chef1 h2 {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.chef2 h2 {
+    position: relative;
+    top: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.chef3 h2 {
+    position: relative;
+    top: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.chef4 h2 {
+    position: relative;
+    top: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.icons {
+    color: black;
+    position: relative;
+    top: 35px;
+    left: 70px;
+    text-align: center;
+    height: 30px;
+    font-size: 20px;
+    width: 80px;
+    background-color: white;
+    border-radius: 18px;
+    padding: 1px;
+    padding-top: 8px;
+}
+.small{
+    color: white;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.static{
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: blanchedalmond;
+    color: black;
+    padding: 100 px 0 30px;
+    border-top-left-radius:125px ;
+    font-size: 15px;
+    line-height: 20px;
+}
+.main{
+    background-color: antiquewhite;
+}
+.space{
+    background-color: blanchedalmond;
+    font-size: 50px;
+    text-align: center;
+}
+.row{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.col p{
+    font-size: 20px;
+    text-align: center;
+}
+.col h1{
+    text-align: center;
+} 
+.col p a{
+    text-decoration: none;
+    color: black;
+}
+.col1{
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+
+}
+.col1 h1{
+    margin-top: 11px;
+}
+.myform{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.logo1{
+    width: 120px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    margin-right: 70px;
+}
+.form input{
+    width: 100%;
+    background: transparent;
+    color: beige;
+    border: 2px;
+    outline: none;
+    border-radius: 7px;
+    height: 10px;
+    margin-left: 90px;
+    
+}
+.inp{
+    height: 30px;
+    text-align: center;
+    border-radius: 7px;
+}
+.myform i{
+    font-size: 35px;
+}
+.space1{
+    width: 7px;
+
+}
+.space2{
+    height: 50px;
+}
+.icons2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+.icons2 a{
+    color: black;
+}
+.icons2 a:hover{
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    padding: 6px;
+}

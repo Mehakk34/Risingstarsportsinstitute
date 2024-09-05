@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./admissions.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="./images/rising-star.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Admissions</title>
+</head>
+<body>
+    <header>
+         <nav class="nav">
+            <div class="topbar">
+                <div class="logo"><img src="./images/rising-star-logo.png" alt="logo" class="logo1"></div>
+                <div class="navbar1">
+                     <ul>
+                        <li><a href="./home.html">HOME <span class="underline"></span></a></li>
+                        <li><a href="./news.html">NEWS<span class="underline"></span></a></li>
+                        <li><a href="./ourchampions.html">OUR CHAMPIONS <span class="underline"></span></a></li>
+                        <li><a href="./career.html">CAREERS <span class="underline"></span></a></li>
+                        <li><a href="./contact.html">CONTACT US <span class="underline"></span></a></li>
+                       
+                           
+                    </ul>
+                </div>
+                <div class="search"><input type="text" placeholder="search"><span class="icon"><i class="fa-solid fa-magnifying-glass"></i></span></div>
+            </div>
+            <div class="navbar2">
+                <ul>
+                    <li><a href="./about.html">About Us</a></li>
+                    <li><a href="./admissions.html">Admissions</a></li>
+                    <li><a href="./sports.html">Sports</a></li>
+                    <li><a href="./community.html">Community</a></li>
+                    
+                        
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="mainphoto"><img src="./images/admission-img.jpg" class="addpic" alt="photo"></div>
+    <div class="maintxt">
+        <div class="txt">
+            <h1>ADMISSIONS</h1>
+        </div>
+    </div>
+    <div class="space"></div>
+    <div class="form-container">
+        <div class="space2"></div>
+        <form action=""class="fm" id="myform">
+            <div class="form-head">Rising Star Sprots Institute</div>
+            <br>
+            <br>
+            <fieldset>
+                <Legend>Personal Details</Legend>
+                <label for="">Name:</label>
+                <input type="text" name="fname" placeholder="First Name">
+                <input type="text" name="mname" placeholder="Middle Name">
+                <input type="text" name="lname" placeholder="Last Name">
+                <br>
+                <label for="">Email :</label>
+                <input type="email" name="email" placeholder="Enter E-mail id">
+                <br>
+                <label for="">Phone No.</label>
+                <input type="number" name="number" placeholder="Enter Phone No.">
+                <br>
+                <label for="">Date Of Birth:</label>
+                <input type="date" name="dob">
+                <br>
+                <label for="">Address :</label>
+                <input type="text" name="Address" placeholder="Address">
+                <br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Education Details</legend>
+                <label for="">class</label>
+                <input type="text"  name="gender" value=" "/>
+                
+                <br>
+                <label for="">Registration number</label>
+                <input type="text" name="Ragnumber"/>
+                
+                <br>
+                <label for="">Fields</label>
+                <select name="Doctor">
+                    <option value="0">--choose feild--</option>
+                    <option value="1">Football</option>
+                    <option value="2">Basketball</option>
+                    <option value="3">Archery</option>
+                    <option value="4">Shooting</option>
+                    <option value="1">Volleyball</option>
+                    <option value="2">Tennis</option>
+                    <option value="3">Badminton</option>
+                    <option value="4">Athletics</option>    
+                </select>
+                <br>
+                <label for="">Session</label>
+                <label for="">Date-</label>
+                <input type="date" placeholder="starting from">
+                <br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Documents</legend>
+                <label for="">Adhar Card:</label>
+                <input type="file" name="adhar-card">
+                <br>
+                <label for="">Fees slip:</label>
+                <input type="file" name="slip">
+                <br>
+                <label for="">Mode of Payment for fees:</label>
+                <br>
+                <input type="radio"  name="pay" value="UPI"/>UPI
+                <input type="radio"  name="pay" value="card"/>Debit/Credit Card
+                <input type="radio"  name="pay" value="Cash"/>Cash Payment 
+                <input type="radio"  name="pay" value="Net"/>Net-Banking
+            </fieldset>
+            <button type="submit" class="registerbtn" onclick="pagePrint(myform)">SUBMIT</button>
+        </form>
+        <br>
+        <br>
+    </div>
+    
+    <script>
+        function pagePrint(myform){
+            var printdata=document.getElementById("myform");
+            newwin=window.open("");
+            newwin.document.write(printdata.outerHTML);
+            newwin.print();
+            newwin.close();
+        }
+    </script> 
+    <footer>
+        <div class="main">
+            <br>
+            <br>
+            <div class="space3">THE RISING STAR SPORTS INSTITUTE</div>
+            <br>
+            <br>
+            <div class="row">
+
+                <div class="col">
+                    <img src="./images/rising-star-logo.png" alt="logo" class="logo1">
+                    <p>The Rising Star Sports Institute website is a dynamic hub for aspiring athletes.The website
+                        epitomizes the institute's dedication to shaping the future stars of the sports world.</p>
+                </div>
+                <div class="col">
+                    <h1>SPORTS</h1>
+                    <br><br><br>
+                    <p>Football</p>
+                    <p>Volleyball</p>
+                    <p>Basketball</p>
+                    <p>Badminton</p>
+                    <p>Tennis</p>
+                    <p>Athletics</p>
+                    <p>Shooting</p>
+                    <p>Archery</p>
+
+                </div>
+                <div class="col">
+                    <h1>LINKS</h1>
+                    <br><br><br>
+                    <P><a href="./home.html">Home</a></P>
+                    <p><a href="./news.html">News</a></p>
+                    <p><a href="./ourchampions.html">Our Champions</a></p>
+                    <p><a href="./career.html">Career</a></p>
+                    <p><a href="./contact.html">Contact Us</a></p>
+                    <p><a href="./about.html">About Us</a></p>
+                    <p><a href="./admissions.html">Admissions</a></p>
+                    <p><a href="./sports.html">Sports</a></p>
+                    <p><a href="./community.html">Community</a></p>
+                </div>
+                <div class="col1">
+                    <h1>SIGN UP</h1>
+                    <div class="myform">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <div class="space1"></div>
+                        <input class="inp" type="Email" placeholder="Enter your email id">
+                    </div>
+                    <div class="space2"></div>
+                    <div class="icons2">
+                        <a href=""><i class="fa fa-instagram"></i></a>
+                        <a href=""><i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+</body>
+</html>
